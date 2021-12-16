@@ -55,11 +55,11 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/%E9%9A%8F%E7%AC%94/index.html">随笔</a></li>
+				<li><a href="/game/index.html">游戏</a></li>
 	        
 				<li><a href="/balan/index.html">聪巴烂简介</a></li>
 	        
-				<li><a href="/dist/index.html">页面</a></li>
+				<li><a href="/elme/index.html">饿了么项目</a></li>
 	        
 			</ul>
 		</nav>
@@ -143,11 +143,11 @@
 				
 					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/%E9%9A%8F%E7%AC%94/index.html">随笔</a></li>
+					<li style="width: 25%"><a href="/game/index.html">游戏</a></li>
 		        
 					<li style="width: 25%"><a href="/balan/index.html">聪巴烂简介</a></li>
 		        
-					<li style="width: 25%"><a href="/dist/index.html">页面</a></li>
+					<li style="width: 25%"><a href="/elme/index.html">饿了么项目</a></li>
 		        
 				</ul>
 			</nav>
@@ -234,7 +234,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2021/12/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">吃屎的孩子</a>
+      <a class="article-title" href="/2021/12/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">Hexo 如何自定义页面</a>
     </h1>
   
 
@@ -247,8 +247,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>刚子哥 压死啦你<br>刚子哥 压死啦你<br>刚子哥 压死啦你</p>
-<p>法克鱿 卑鄙<br>法克鱿 卑鄙<br>法克鱿 卑鄙<br>法克鱿 卑鄙<br>法克鱿 卑鄙<br>法克鱿 卑鄙<br>法克鱿 卑鄙<br>法克鱿 卑鄙<br>                  //         \         //          \       //    ##DDDDDDDDDDDDDDDDDDDDDD##    ## DDDDDDDDDDDDDDDDDDDD ##   ________   ___   ___        ___   ________   ___   ___        ___    ## hh                hh ##   |\   __  \ |\  \ |\  \      |\  \ |\   __  \ |\  \ |\  \      |\  \    ## hh    //    \    hh ##   \ \  |\ /<em>\ \  \ \  \     \ \  \ \  |\ /<em>\ \  \ \  \     \ \  \    ## hh   //      \   hh ##    \ \   __  \ \  \ \  \     \ \  \ \   __  \ \  \ \  \     \ \  \    ## hh                hh ##     \ \  |\  \ \  \ \  _</em></em>_ \ \  \ \  |\  \ \  \ \  ____ \ \  \    ## hh      wwww      hh ##      \ _<em>__<em>__\ __\ _<em>__<strong>_\ __\ _<em>__<strong>_\ __\ _<strong><strong><strong>\ _<em>\    ## hh                hh ##       |</em></strong></strong></strong>| |__| |</strong>__</em>__| |</strong>| |__</em>___</em>| |__| |</em>____<strong>| |</strong>|    ## MMMMMMMMMMMMMMMMMMMM ##    ##MMMMMMMMMMMMMMMMMMMMMM##                             Release 2.6.1. Powered by jinkela-core 2.8.10.</p>
+        <p>两种方法跳过 hexo 的渲染:</p>
+<ul>
+<li>在页面头部增加以下内容<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure></li>
+<li>在 _config.yml 文件中配置需要跳过渲染的文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">skip_render: skipFiles/**</span><br></pre></td></tr></table></figure></li>
+</ul>
 
       
 
