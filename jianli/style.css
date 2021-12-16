@@ -1,22 +1,22 @@
-::-moz-selection {
+.wraper ::-moz-selection {
     background: #333;
     color: #fff;
     text-shadow: none;
 }
 
-::-webkit-selection {
+.wraper ::-webkit-selection {
     background: #333;
     color: #fff;
     text-shadow: none;
 }
 
-::selection {
+.wraper ::selection {
     background: #333;
     color: #fff;
     text-shadow: none;
 }
 
-body {
+.wraper body {
     border: 0 none;
     margin: 0;
     padding: 0;
@@ -26,11 +26,11 @@ body {
     background: #e0e0e0;
 }
 
-a {
+.wraper a {
     color: #369;
 }
 
-nav {
+.wraper nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -49,20 +49,20 @@ nav {
     background: linear-gradient(top, #94d52d, #65c31f);
 }
 
-nav ul {
+.wraper nav ul {
     list-style: none;
     width: 800px;
     margin: 0 auto;
     padding: 0;
 }
 
-nav li {
+.wraper nav li {
     float: left;
     margin: 0;
     padding: 0;
 }
 
-nav a {
+.wraper nav a {
     color: #fff;
     font-weight: bold;
     line-height: 40px;
@@ -74,27 +74,27 @@ nav a {
     padding: 0 12px;
 }
 
-nav li:last-child a {
+.wraper nav li:last-child a {
     color: #111;
     text-shadow: 0 1px 0px #ddd;
 }
 
-nav a:hover {
+.wraper nav a:hover {
     color: #f8f8f8;
     background: #359300;
 }
 
-div {
+.wraper div {
     width: 800px;
     margin: 0 auto;
 }
 
-section {
+.wraper section {
     position: relative;
     overflow:hidden;
 }
 
-section:before {
+.wraper section:before {
     content: "\273d";
     text-align: center;
     line-height: 1;
@@ -103,11 +103,11 @@ section:before {
     top: 20px;
 }
 
-section:first-child:before {
+.wraper section:first-child:before {
     display: none;
 }
 
-h2 {
+.wraper h2 {
     font-family: "Microsoft Yahei", "\5b8b\4f53", Georgia, serif;
     font-size: 20px;
     text-shadow: 0 1px 0 #fff;
@@ -120,21 +120,21 @@ h2 {
     transition: margin 300ms ease-in-out;
 }
 
-.desktop h2:hover {
+.wraper .desktop h2:hover {
     color: #369;
     cursor: pointer;
 }
 
-.nojs h2,
+.wraper .nojs h2,
 section:target h2 {
     margin: 0;
 }
 
-.nojs section:first-child h2 {
+.wraper .nojs section:first-child h2 {
     padding: 30px 0 0 0;
 }
 
-h2:before {
+.wraper h2:before {
     content: "\21e8";
     text-align: center;
     width: 30px;
@@ -142,7 +142,7 @@ h2:before {
     display: inline-block;
 }
 
-img {
+.wraper img {
     width: 120px;
     height: 180px;
     padding: 4px;
@@ -152,27 +152,27 @@ img {
     background: #fff;
 }
 
-h3 {
+.wraper h3 {
     font-size: 16px;
     margin: 20px 0 10px;
 }
 
-p {
+.wraper p {
     margin: 10px 0;
 }
 
-p.print {
+.wraper p.print {
     display: none;
 }
 
-span {
+.wraper span {
     display: inline-block;
     padding-right: 10px;
     width: 140px;
     font-weight: normal;
 }
 
-footer {
+.wraper footer {
     width: 800px;
     margin: 40px auto 20px;
     text-align: center;
@@ -180,15 +180,15 @@ footer {
     font-weight: bold;
 }
 
-footer p:before {
+.wraper footer p:before {
     content: "\ab\3000";
 }
 
-footer p:after {
+.wraper footer p:after {
     content: "\3000\bb";
 }
 
-footer a {
+.wraper footer a {
     text-decoration: none;
 }
 
@@ -330,4 +330,9 @@ footer a {
     p.print {
         display: block;
     }
+}
+.dance {
+    position: absolute;
+    top: 20px;
+    right: -10px;
 }
